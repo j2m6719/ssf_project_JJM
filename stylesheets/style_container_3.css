@@ -1,0 +1,39 @@
+.container_3 {
+    width: 100%;
+    height: 100%;
+}
+.container_3 .slogans {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container_3 .slogans .slogan {
+    text-align: center;
+}
+.container_3 .slogans .slogan img {
+    width: 180px;
+    padding: 30px;
+    border-radius: 20%;
+    border: 7px solid black;
+    transition: all 0.3s;
+}
+.container_3 .slogans .slogan:nth-child(1) img:hover {
+    background-color: #e53a40;
+}
+.container_3 .slogans .slogan:nth-child(2) img:hover {
+    background-color: #ffbc42;
+}
+.container_3 .slogans .slogan:nth-child(3) img:hover {
+    background-color: #8cd790;
+}
+.container_3 .slogans .slogan h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.container_3 .slogans .slogan p {
+    font-size: 1.5em;
+}
+}
